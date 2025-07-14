@@ -1,12 +1,12 @@
 {
-    "version": "0.2.16",
+    "version": "0.2.17",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/muthuishere/lnb/releases/download/v0.2.16/lnb_0.2.16_Windows_x86_64.tar.gz",
+            "url": "https://github.com/muthuishere/lnb/releases/download/v0.2.17/lnb_0.2.17_Windows_x86_64.tar.gz",
             "bin": [
                 "lnb.exe"
             ],
-            "hash": "944af15300b323027333a783c8c19abb336ab9dc55e8605dcc91d5649bc7e50c"
+            "hash": "6ff755b0703d2fd886572db18ea531522f7be88827079d862678a987f410cd7f"
         }
     },
     "homepage": "https://github.com/muthuishere/lnb",
