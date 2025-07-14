@@ -1,23 +1,15 @@
 {
-    "version": "{{.Version}}",
-    "description": "Link Binary - A cross-platform utility that makes command-line tools accessible from anywhere by creating symbolic links or wrapper scripts in your system's PATH",
-    "homepage": "https://github.com/muthuishere/lnb",
-    "license": "MIT",
+    "version": "0.2.6",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/muthuishere/lnb/releases/download/v{{.Version}}/lnb_{{.Version}}_Windows_x86_64.tar.gz",
-            "hash": "{{.WindowsAmd64SHA256}}",
-            "bin": "lnb.exe"
+            "url": "https://github.com/muthuishere/lnb/releases/download/v0.2.6/lnb_0.2.6_Windows_x86_64.tar.gz",
+            "bin": [
+                "lnb.exe"
+            ],
+            "hash": "cc5a623b5741a360ca989ea810688566271cac5c07462ed544e62bcd23f403b7"
         }
     },
-    "checkver": {
-        "github": "https://github.com/muthuishere/lnb"
-    },
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/muthuishere/lnb/releases/download/v$version/lnb_$version_Windows_x86_64.tar.gz"
-            }
-        }
-    }
+    "homepage": "https://github.com/muthuishere/lnb",
+    "license": "MIT",
+    "description": "A cross-platform utility that makes command-line tools accessible from anywhere by creating symbolic links or wrapper scripts in your system's PATH"
 }
